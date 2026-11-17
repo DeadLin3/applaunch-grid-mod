@@ -1,5 +1,7 @@
 # APPLaunch 3xN Grid Mod for M5Stack CardputerZero
 
+![APPLaunch 3xN Grid Demo](demo.gif)
+
 Adds a **3-column scrollable tile grid** home layout to `M5CardputerZero-APPLaunch` (`CardputerZero/launcher`), with instant live switching between **Grid (3xN)** and the stock **Carousel** via the `G` key.
 
 ## Features
