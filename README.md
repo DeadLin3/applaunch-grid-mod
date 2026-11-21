@@ -11,14 +11,20 @@ Adds a **3-column scrollable tile grid** home layout to `M5CardputerZero-APPLaun
 - **Non-destructive:** `install.sh` backs up the stock binary to `~/M5CardputerZero-APPLaunch.stock.bak` and `restore.sh` reverts it anytime.
 
 ## Quick Install (on CardputerZero)
+One-line install via SSH or terminal:
 ```bash
-chmod +x install.sh restore.sh
-./install.sh
+curl -fsSL https://raw.githubusercontent.com/DeadLin3/applaunch-grid-mod/main/install.sh | bash
+```
+
+Or clone the repo:
+```bash
+git clone https://github.com/DeadLin3/applaunch-grid-mod.git
+cd applaunch-grid-mod && chmod +x install.sh restore.sh && ./install.sh
 ```
 
 ## Rollback to Stock
 ```bash
-./restore.sh
+curl -fsSL https://raw.githubusercontent.com/DeadLin3/applaunch-grid-mod/main/restore.sh | bash
 ```
 
 ## For Upstream PR (`CardputerZero/launcher`)
